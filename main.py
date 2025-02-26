@@ -4,7 +4,9 @@ import time
 
 now = time.strftime("%d/%b/%Y, %H:%M:%S")
 print("It is", now)
-print("IT is, now")
+
+
+
 while True:
     user_action = input("Type add edit exit or show: ")
     user_action = user_action.strip()
